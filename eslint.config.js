@@ -19,5 +19,9 @@ export default tseslint.config([
             ecmaVersion: 2020,
             globals: globals.browser,
         },
+        rules: {
+            // Fast Refresh制約による過剰なエラーを抑制
+            'react-refresh/only-export-components': 'off',
+        },
     },
 ])
