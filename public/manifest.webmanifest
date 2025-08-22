@@ -1,0 +1,1 @@
+{"name":"Sample hello","short_name":"sha","description":"サンプル","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#eaeaea","lang":"en","scope":"/","icons":[{"src":"favicons/icon-192x192.png","sizes":"192x192","type":"image/png"},{"src":"favicons/icon-512x512.png","sizes":"512x512","type":"image/png"}]}
