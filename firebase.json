@@ -6,12 +6,14 @@
             "**/.*",
             "**/node_modules/**"
         ],
-        "rewrites": {
-            "source": "/helloworld",
-            "run": {
-                "serviceId": "helloworld",
-                "region": ""
+        "rewrites": [
+            {
+                "source": "/helloworld",
+                "run": {
+                    "serviceId": "helloworld",
+                    "region": ""
+                }
             }
-        }
+        ]
     }
 }
